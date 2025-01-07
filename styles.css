@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+h1 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #007bff;
+    transition: border-color 0.3s;
+}
+
+.profile-img:hover {
+    border-color: #0056b3;
+}
+
+.biodata {
+    margin: 20px 0;
+}
+
+.biodata p {
+    margin: 10px 0;
+    padding: 10px;
+    background: #f8f9fa;
+    border-left: 5px solid #007bff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.biodata p i {
+    margin-right: 10px;
+    color: #007bff;
+    cursor: pointer; /* Menambahkan kursor pointer untuk menunjukkan bahwa ikon dapat diklik */
+    transition: transform 0.2s;
+}
+
